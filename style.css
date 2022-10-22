@@ -5,13 +5,14 @@
 .header-style {
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 75%;
 }
 .nav-list {
     text-align: left;
     font-weight: 600;
     font-size: 1rem;
     font-family: monospace;
+    margin-left: .5em;
 }
 .self-pic {
     display: block;
@@ -24,7 +25,7 @@
     font-weight: 400;
     text-align: right;
     border-bottom: 3px groove darkorange;
-    width: 26%;
+    width: 29%;
     margin-left: 70%;
 }
 
