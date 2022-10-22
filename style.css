@@ -1,34 +1,86 @@
 * {
+    -webkit-box-sizing: border-box;
     background-color:dimgrey;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:ivory;
 }
-img {
+.header-style {
     display: block;
-    margin: auto;
-}
-h1, h2 {
-    border-bottom: 1px solid;
-    background-color:darkslategrey;   
-}
-.header-style {  
-    text-align: center;
     margin: 0 auto;
-    margin-bottom: 2rem;
     width: 90%;
 }
+.nav-list {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: monospace;
+}
+.self-pic {
+    display: block;
+    margin: 0 auto;
+    border: 1px #000 solid;
+    border-style: groove;
+    border-radius: 1%;
+}
+.subtitle {
+    font-weight: 400;
+    text-align: right;
+    border-bottom: 3px groove darkorange;
+    width: 26%;
+    margin-left: 70%;
+}
 
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1 {
+border: 2px solid darkorange;
+text-align: center;
+background-color:darkslategrey;
+color:lightgray;
+text-shadow: 0px 1px black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style: none;
+    color: ivory;
+  }
+
+ul li::before {
+    content: "\2225";
+    color: darkorange;
+    margin-left: -1em;
+    width: 1em;
+    display: inline-block;
+  }
+h2 {
+    border: 2px solid black;
+    text-align: center;
+    background-color:darkslategrey;
+    text-shadow: 1px 2px #000;
+    color:lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+:link {
+    color: black;
+}
 .main {
     margin: 0 auto;
     margin-bottom: 2rem;
     width: 75%;
     padding: 10px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .pre-code {
-  display: block;
+  display:block;
   white-space: pre-wrap;
-  align-items: center;
+  align-items:flex-start;
   background-color:grey;
+}
+.lang-image {
+    display: block;
 }
 .footer {
     border-top: 2px solid;
@@ -36,7 +88,7 @@ h1, h2 {
     height: 4rem;
     background-color:dimgrey;
     color:black;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -49,17 +101,20 @@ h1, h2 {
     margin-top: 2rem;
     margin-left: 1rem;
 }
-
 .footer-name {
     display: flex;
     margin-top: 1rem;
     margin-inline: auto;
+    text-shadow: 1px 1px black;
 }
-
 .name {
     text-align: center;
-}
 
+}
+.name a {
+    text-decoration: none;
+    color:darkslategray;
+}
 .footer-rsschool {
     display: flex;
     margin-top: 2rem;
